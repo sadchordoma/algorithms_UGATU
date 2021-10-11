@@ -34,7 +34,6 @@ void find_min_index_min_element_aj_more_bi(int m, int* B, int n, int* A) {
     }
 }
 
-
 int main() {
     int n, m;
     cin >> n >> m;
