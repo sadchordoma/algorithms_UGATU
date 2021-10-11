@@ -98,4 +98,3 @@ int main() {
     std::cout << "YES";
     return 0;
 }
-
