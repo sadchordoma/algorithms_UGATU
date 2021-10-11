@@ -6,6 +6,7 @@
 
 n, m ≤ 10000.
 2)	53789954
+ПЕРЕДЕЛАТЬ DELETE .>>>>>>>>>>>>>>>>>>
 **/
 #include <iostream>
 using namespace std;
