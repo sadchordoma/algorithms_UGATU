@@ -50,7 +50,7 @@ public:
         buffer = new int[buffer_size];
         buffer_size = buffer_size;
     }
-    queue() {
+    ~queue() {
         delete[] buffer;
     }
     int push_back(int a) {
