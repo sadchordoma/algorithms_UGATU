@@ -9,6 +9,7 @@ n, m ≤ 10000.
 ПЕРЕДЕЛАТЬ DELETE .>>>>>>>>>>>>>>>>>>
 **/
 #include <iostream>
+
 using namespace std;
 
 void input_data_from_console_(int len, int *mas) {   // compilator rugaetsya 4to func uje est' v projecte
