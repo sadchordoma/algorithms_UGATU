@@ -4,6 +4,7 @@
  * **/
 
 #include <iostream>
+
 int find_first_del(int number) {
     int d = 2;
     while (d * d < number) {
@@ -19,12 +20,11 @@ int find_first_del(int number) {
 }
 
 int main() {
-    using namespace std;
     int N, A, B;
     cin >> N;
     A = find_first_del(N);
     B = N - A;
-    cout << A << " " << B;
+    std::cout << A << " " << B;
     return 0;
 }
 
