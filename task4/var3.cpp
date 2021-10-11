@@ -104,4 +104,5 @@ int main() {
     cin >> n;
     queue stk(n);
     compare_answers(stk, n);
+    return 0;
 }
