@@ -5,12 +5,11 @@
 //Указание. Обходите массив B от конца к началу.
 **/
 
-
 #include <iostream>
-using namespace std;
+
 void input_data_from_console(int len, int *mas) {
     for (int i = 0; i < len; i++) {
-        cin >> mas[i];
+        std::cin >> mas[i];
     }
 }
 /**FUNC find_bi_plus_aj_equal_k:
@@ -30,7 +29,7 @@ int find_bi_plus_aj_equal_k(int len_A, int *A, int len_B, int *B, int k) {
         for (int j = index_A_to_start_from; j < len_A; j++) {
             int sum = B[i] + A[j];
             if (sum == k) {
-                count ++;
+                count++;
             }
             else if (sum > k) {
                 index_A_to_start_from = j;
@@ -42,14 +41,14 @@ int find_bi_plus_aj_equal_k(int len_A, int *A, int len_B, int *B, int k) {
 }
 int main() {
     int n, m, k;
-    cin >> n;
+    std::cin >> n;
     int *A = new int[n];
     input_data_from_console(n, A);
-    cin >> m;
+    std::cin >> m;
     int *B = new int[m];
     input_data_from_console(m, B);
-    cin >> k;
+    std::cin >> k;
     int answer = find_bi_plus_aj_equal_k(n, A, m, B, k);
-    cout << answer;
+    std::cout << answer;
     return 0;
 }
