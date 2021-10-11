@@ -43,5 +43,7 @@ int main() {
     input_data_from_console_(n, A);
     input_data_from_console_(m, B);
     find_min_index_min_element_aj_more_bi(m, B, n, A);
+    delete[] A;
+    delete[] B;
     return 0;
 }
