@@ -33,7 +33,7 @@ string build_str_by_pi(vector<size_t> pi) {
             s += c;
         }
     }
-    return result;
+    return s;
 }
 
 int main() {
