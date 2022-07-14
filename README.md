@@ -1,2 +1,1 @@
-# algorithms_UGATU
-Чуриков Михаил УГАТУ
+# algorithms_MFTI
